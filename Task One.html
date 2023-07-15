@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task One</title>
+</head>
+<body>
+     <h1>01.Application Form</h1>
+    <!--Creating Application Form-->
+    <form action="#" method="post">
+      <p>
+         <label for="name">Name:</label>
+         <input type="text" name="name" id="name" placeholder="Enter your name" required>
+     </p>
+
+     <p>
+         <label for="email">Email:</label>
+         <input type="email" name="email"  id="email" placeholder="Enter your email" required>
+     </p>
+
+     <p>
+         <label for="gender">Gender:</label>
+         <input type="radio" name="gender"   id="gender" value="Male">Male
+         <input type="radio" name="gender" id="gender" value="Female">Female
+
+     </p>
+
+     <p>
+         <label for="skills" >CHOOSE SKILLS</label>
+     </p>
+     <p>
+         HTML <input type="checkbox" name="skills" id="skills" value="HTML">
+         CSS <input type="checkbox" name="skills" id="skills" value="CSS">
+         JS <input type="checkbox" name="skills" id="skills" value="JS">
+         Bootstrap <input type="checkbox" name="skills" id="skills" value="Bootstrap">
+         React <input type="checkbox" name="skills" id="skills" value="React">
+     </P>
+    
+     <p>
+            <label for="job_type" >JOB TYPE</label>
+          <select name="job_type" id="job_type" required>
+             <option value="front_end" selected>FRONT END DEVELOPER</option>
+             <option value="back_end">BACK END DEVELOPER</option>
+             <option value="full_stack" >FULL STACK DEVELOPER</option>
+        </select>
+     </p>
+    
+     <p>
+          <label for="browser"></label>Choose your browser from the list:
+         <input type="text" name="browser" id="browser" list="browser_name" required>
+           <datalist id="browser_name">
+            <option value="chrome">Chrome</option>
+            <option value="Mozilla Firefox">Mozilla Firefox</option>
+            <option value="Internet Explorer">Internet Explorer</option>
+            <option value="Microsoft Edge">Microsoft Edge</option>
+           </datalist>
+     </p>
+     
+     <p>
+        <textarea name="summary" id="summary" cols="30" rows="3" placeholder="Give a brief summary about you"></textarea>
+     </p>
+
+     <p>
+        <button type="submit">Submit</button>
+     </p>
+      
+    
+    </form>
+    <br><br><br>
+    <!--Application form ended-->
+
+    <!--02.Batch List-->
+    <h1>02.Batch List</h1>
+
+      <!-- Creating Batch List of Senchola University-->
+    <ul type="square">
+        <li>SENCHOLA UNIVERSITY</li>
+        <ol type="1">
+            <br>
+             <!-- Creating  First Batch List of Senchola University-->
+            <li>First Batch</li>
+
+            <ol type="A">
+                 <!--Creating Name list of First Batch-->
+                <br>
+                <li>Ravi</li>
+                <br>
+                <li>Manol</li>
+                <br>
+                <li>Sandthiya</li>
+                <br>
+            </ol>
+
+             <!-- Creating Second Batch List of Senchola University-->
+            <li>Second Batch</li>
+
+            <ol type="I">
+                 <!--Creating Name list of Second Batch-->
+                <br>
+                <li>Sundhar</li>
+                <br>
+                <li>Saranya</li>
+                <br>
+                <li>Nandhini</li>
+                <br>
+            </ol>
+
+             <!-- Creating Second Batch List of Senchola University-->
+            <li>Second Batch</li>
+
+            <ol type="i">
+                 <!--Creating Name list of Second Batch-->
+
+                <br>
+                <li>Monika</li>
+                <br>
+                <li>Santhosh</li>
+                <br>
+                <li>Kannan</li>
+            </ol>
+        </ol>
+    </ul>
+    <br><br><br>
+    <!--Batch List ended -->
+
+    <!--03.Course-->
+    <h1>03.Course</h1>
+
+    <!-- creating new table coures -->
+    <table border="1" cellpadding="10" cellspacing="2">
+
+        <!-- Table heading -->
+        <thead>
+
+            <tr>
+                <th>S.NO 1</th>
+                <th>S.NO 2</th>
+                <th>S.No 3</th>
+                <th>S.NO 4</th>
+            </tr>
+    
+
+        </thead>
+        <!-- Table content -->
+        <tbody>
+            <tr>
+                <td rowspan="2">REACT JS</td>
+                <td>HTML</td>
+                <td rowspan="2">REACT JS</td>
+                <td>CSS</td>
+            </tr>
+
+            <tr>
+                <td>CSS</td>
+                <td>HTML</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">JAVASCRIPT</td>
+                <td colspan="2">BOOTSTRAP</td>
+            </tr>
+
+        </tbody>  
+       
+    </table>
+    <br><br><br>
+    <!--Course ended -->
+</body>
+</html>
